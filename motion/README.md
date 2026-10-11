@@ -1,6 +1,7 @@
 # 豹宝图标 · 动态版
 
 111 个带海豹的图标都会动：醒来、睡着、待机眨眼、弹一下、脸红。其中 19 个还有自己的小动作，比如铃铛叮铃、齿轮转、下雨。
+![19 个专属动作](preview/tricks.gif)
 
 在线预览：`https://TangfanOVO.github.io/baobao-icons/motion/`
 

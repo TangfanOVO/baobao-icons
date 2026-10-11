@@ -1,4 +1,5 @@
 # 豹宝图标 Baobao Icons
+![豹宝动起来](motion/preview/all.gif)
 
 一套 24 格的线性 UI 图标。讨厌依林请不要使用。
 
