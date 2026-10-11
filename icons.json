@@ -1,0 +1,1503 @@
+{
+ "name": "豹宝图标 Baobao Icons",
+ "version": "1.0.0",
+ "grid": 24,
+ "styles": [
+  "thin",
+  "thick",
+  "thin-highlight",
+  "thick-highlight",
+  "thin-sleep",
+  "thick-sleep"
+ ],
+ "icons": [
+  {
+   "name": "seal-face",
+   "label": "本体",
+   "type": "seal",
+   "n": 1,
+   "sleep": true
+  },
+  {
+   "name": "seal-face-whole",
+   "label": "本体 · 整只",
+   "type": "seal",
+   "alternateOf": "seal-face",
+   "n": 1,
+   "sleep": true
+  },
+  {
+   "name": "seal-search",
+   "label": "搜索",
+   "type": "seal",
+   "n": 2,
+   "sleep": true
+  },
+  {
+   "name": "seal-search-tilt",
+   "label": "搜索 · 歪头",
+   "type": "seal",
+   "alternateOf": "seal-search",
+   "n": 2,
+   "sleep": true
+  },
+  {
+   "name": "seal-chat",
+   "label": "消息",
+   "type": "seal",
+   "n": 3,
+   "sleep": true
+  },
+  {
+   "name": "seal-chat-tilt",
+   "label": "消息 · 歪头",
+   "type": "seal",
+   "alternateOf": "seal-chat",
+   "n": 3,
+   "sleep": true
+  },
+  {
+   "name": "seal-bell",
+   "label": "通知",
+   "type": "seal",
+   "n": 4,
+   "sleep": true
+  },
+  {
+   "name": "seal-camera",
+   "label": "相机",
+   "type": "seal",
+   "n": 5,
+   "sleep": true
+  },
+  {
+   "name": "seal-location",
+   "label": "定位",
+   "type": "seal",
+   "n": 6,
+   "sleep": true
+  },
+  {
+   "name": "seal-cloud",
+   "label": "云",
+   "type": "seal",
+   "n": 7,
+   "sleep": true
+  },
+  {
+   "name": "seal-sun",
+   "label": "浅色模式",
+   "type": "seal",
+   "n": 8,
+   "sleep": true
+  },
+  {
+   "name": "seal-shield",
+   "label": "安全",
+   "type": "seal",
+   "n": 9,
+   "sleep": true
+  },
+  {
+   "name": "seal-scan",
+   "label": "扫一扫",
+   "type": "seal",
+   "n": 10,
+   "sleep": true
+  },
+  {
+   "name": "seal-mail",
+   "label": "信件",
+   "type": "seal",
+   "n": 11,
+   "sleep": true
+  },
+  {
+   "name": "seal-mail-hug",
+   "label": "信件 · 抱",
+   "type": "seal",
+   "alternateOf": "seal-mail",
+   "n": 11,
+   "sleep": true
+  },
+  {
+   "name": "seal-calendar",
+   "label": "日历",
+   "type": "seal",
+   "n": 12,
+   "sleep": true
+  },
+  {
+   "name": "seal-bag",
+   "label": "购物",
+   "type": "seal",
+   "n": 13,
+   "sleep": true
+  },
+  {
+   "name": "seal-wallet",
+   "label": "钱包",
+   "type": "seal",
+   "n": 14,
+   "sleep": true
+  },
+  {
+   "name": "seal-ticket",
+   "label": "优惠券",
+   "type": "seal",
+   "n": 15,
+   "sleep": true
+  },
+  {
+   "name": "seal-image",
+   "label": "图片",
+   "type": "seal",
+   "n": 16,
+   "sleep": true
+  },
+  {
+   "name": "seal-video",
+   "label": "视频",
+   "type": "seal",
+   "n": 17,
+   "sleep": true
+  },
+  {
+   "name": "seal-map",
+   "label": "地图",
+   "type": "seal",
+   "n": 18,
+   "sleep": true
+  },
+  {
+   "name": "seal-key",
+   "label": "钥匙",
+   "type": "seal",
+   "n": 19,
+   "sleep": true
+  },
+  {
+   "name": "seal-redpacket",
+   "label": "红包",
+   "type": "seal",
+   "n": 20,
+   "sleep": true
+  },
+  {
+   "name": "seal-package",
+   "label": "快递",
+   "type": "seal",
+   "n": 21,
+   "sleep": true
+  },
+  {
+   "name": "seal-cart",
+   "label": "购物车",
+   "type": "seal",
+   "n": 22,
+   "sleep": true
+  },
+  {
+   "name": "seal-folder",
+   "label": "文件夹",
+   "type": "seal",
+   "n": 23,
+   "sleep": true
+  },
+  {
+   "name": "seal-bookmark",
+   "label": "收藏",
+   "type": "seal",
+   "n": 24,
+   "sleep": true
+  },
+  {
+   "name": "seal-file",
+   "label": "文件",
+   "type": "seal",
+   "n": 25,
+   "sleep": true
+  },
+  {
+   "name": "seal-tag",
+   "label": "标签",
+   "type": "seal",
+   "n": 26,
+   "sleep": true
+  },
+  {
+   "name": "seal-heart",
+   "label": "喜欢",
+   "type": "seal",
+   "n": 27,
+   "sleep": true
+  },
+  {
+   "name": "seal-heart-chin",
+   "label": "喜欢 · 托",
+   "type": "seal",
+   "alternateOf": "seal-heart",
+   "n": 27,
+   "sleep": true
+  },
+  {
+   "name": "seal-heart-side",
+   "label": "喜欢 · 斜着咬",
+   "type": "seal",
+   "alternateOf": "seal-heart",
+   "n": 27,
+   "sleep": true
+  },
+  {
+   "name": "seal-star",
+   "label": "星标",
+   "type": "seal",
+   "n": 28,
+   "sleep": true
+  },
+  {
+   "name": "seal-bulb",
+   "label": "灵感",
+   "type": "seal",
+   "n": 29,
+   "sleep": true
+  },
+  {
+   "name": "seal-trophy",
+   "label": "奖杯",
+   "type": "seal",
+   "n": 30,
+   "sleep": true
+  },
+  {
+   "name": "seal-fire",
+   "label": "热门",
+   "type": "seal",
+   "n": 31,
+   "sleep": true
+  },
+  {
+   "name": "seal-gift",
+   "label": "礼物",
+   "type": "seal",
+   "n": 32,
+   "sleep": true
+  },
+  {
+   "name": "seal-book",
+   "label": "书",
+   "type": "seal",
+   "n": 33,
+   "sleep": true
+  },
+  {
+   "name": "seal-coin",
+   "label": "积分",
+   "type": "seal",
+   "n": 34,
+   "sleep": true
+  },
+  {
+   "name": "seal-game",
+   "label": "游戏",
+   "type": "seal",
+   "n": 35,
+   "sleep": true
+  },
+  {
+   "name": "seal-home",
+   "label": "主页",
+   "type": "seal",
+   "n": 36,
+   "sleep": true
+  },
+  {
+   "name": "seal-crown",
+   "label": "会员",
+   "type": "seal",
+   "n": 37,
+   "sleep": true
+  },
+  {
+   "name": "seal-music",
+   "label": "音乐",
+   "type": "seal",
+   "n": 38,
+   "sleep": true
+  },
+  {
+   "name": "seal-cake",
+   "label": "生日",
+   "type": "seal",
+   "n": 39,
+   "sleep": true
+  },
+  {
+   "name": "seal-headset",
+   "label": "客服",
+   "type": "seal",
+   "n": 40,
+   "sleep": true
+  },
+  {
+   "name": "seal-settings",
+   "label": "设置",
+   "type": "seal",
+   "n": 41,
+   "sleep": true
+  },
+  {
+   "name": "seal-clock",
+   "label": "时间",
+   "type": "seal",
+   "n": 42,
+   "sleep": true
+  },
+  {
+   "name": "seal-globe",
+   "label": "语言",
+   "type": "seal",
+   "n": 43,
+   "sleep": true
+  },
+  {
+   "name": "seal-moon",
+   "label": "深色模式",
+   "type": "seal",
+   "n": 44,
+   "sleep": true
+  },
+  {
+   "name": "seal-me",
+   "label": "我的",
+   "type": "seal",
+   "n": 45,
+   "sleep": true
+  },
+  {
+   "name": "seal-me-whole",
+   "label": "我的 · 整只",
+   "type": "seal",
+   "alternateOf": "seal-me",
+   "n": 45,
+   "sleep": true
+  },
+  {
+   "name": "seal-users",
+   "label": "好友",
+   "type": "seal",
+   "n": 46,
+   "sleep": true
+  },
+  {
+   "name": "seal-users-small",
+   "label": "好友 · 小身体",
+   "type": "seal",
+   "alternateOf": "seal-users",
+   "n": 46,
+   "sleep": true
+  },
+  {
+   "name": "seal-users-whole",
+   "label": "好友 · 两只整只",
+   "type": "seal",
+   "alternateOf": "seal-users",
+   "n": 46,
+   "sleep": true
+  },
+  {
+   "name": "seal-user-add",
+   "label": "加好友",
+   "type": "seal",
+   "n": 47,
+   "sleep": true
+  },
+  {
+   "name": "seal-chart",
+   "label": "数据",
+   "type": "seal",
+   "n": 48,
+   "sleep": true
+  },
+  {
+   "name": "seal-phone",
+   "label": "电话",
+   "type": "seal",
+   "n": 49,
+   "sleep": true
+  },
+  {
+   "name": "seal-mic",
+   "label": "语音",
+   "type": "seal",
+   "n": 50,
+   "sleep": true
+  },
+  {
+   "name": "plus",
+   "label": "加",
+   "type": "action",
+   "n": 51,
+   "sleep": false
+  },
+  {
+   "name": "minus",
+   "label": "减",
+   "type": "action",
+   "n": 52,
+   "sleep": false
+  },
+  {
+   "name": "close",
+   "label": "关闭",
+   "type": "action",
+   "n": 53,
+   "sleep": false
+  },
+  {
+   "name": "check",
+   "label": "完成",
+   "type": "action",
+   "n": 54,
+   "sleep": false
+  },
+  {
+   "name": "arrow-left",
+   "label": "返回",
+   "type": "action",
+   "n": 55,
+   "sleep": false
+  },
+  {
+   "name": "arrow-right",
+   "label": "前进",
+   "type": "action",
+   "n": 56,
+   "sleep": false
+  },
+  {
+   "name": "arrow-up",
+   "label": "向上",
+   "type": "action",
+   "n": 57,
+   "sleep": false
+  },
+  {
+   "name": "arrow-down",
+   "label": "向下",
+   "type": "action",
+   "n": 58,
+   "sleep": false
+  },
+  {
+   "name": "chevron-left",
+   "label": "左",
+   "type": "action",
+   "n": 59,
+   "sleep": false
+  },
+  {
+   "name": "chevron-right",
+   "label": "右",
+   "type": "action",
+   "n": 60,
+   "sleep": false
+  },
+  {
+   "name": "chevron-up",
+   "label": "收起",
+   "type": "action",
+   "n": 61,
+   "sleep": false
+  },
+  {
+   "name": "chevron-down",
+   "label": "展开",
+   "type": "action",
+   "n": 62,
+   "sleep": false
+  },
+  {
+   "name": "more",
+   "label": "更多",
+   "type": "action",
+   "n": 63,
+   "sleep": false
+  },
+  {
+   "name": "more-vertical",
+   "label": "更多(竖)",
+   "type": "action",
+   "n": 64,
+   "sleep": false
+  },
+  {
+   "name": "menu",
+   "label": "菜单",
+   "type": "action",
+   "n": 65,
+   "sleep": false
+  },
+  {
+   "name": "refresh",
+   "label": "刷新",
+   "type": "action",
+   "n": 66,
+   "sleep": false
+  },
+  {
+   "name": "undo",
+   "label": "撤销",
+   "type": "action",
+   "n": 67,
+   "sleep": false
+  },
+  {
+   "name": "redo",
+   "label": "重做",
+   "type": "action",
+   "n": 68,
+   "sleep": false
+  },
+  {
+   "name": "external",
+   "label": "打开链接",
+   "type": "action",
+   "n": 69,
+   "sleep": false
+  },
+  {
+   "name": "download",
+   "label": "下载",
+   "type": "action",
+   "n": 70,
+   "sleep": false
+  },
+  {
+   "name": "upload",
+   "label": "上传",
+   "type": "action",
+   "n": 71,
+   "sleep": false
+  },
+  {
+   "name": "share",
+   "label": "分享",
+   "type": "action",
+   "n": 72,
+   "sleep": false
+  },
+  {
+   "name": "copy",
+   "label": "复制",
+   "type": "action",
+   "n": 73,
+   "sleep": false
+  },
+  {
+   "name": "edit",
+   "label": "编辑",
+   "type": "action",
+   "n": 74,
+   "sleep": false
+  },
+  {
+   "name": "trash",
+   "label": "删除",
+   "type": "action",
+   "n": 75,
+   "sleep": false
+  },
+  {
+   "name": "filter",
+   "label": "筛选",
+   "type": "action",
+   "n": 76,
+   "sleep": false
+  },
+  {
+   "name": "sort",
+   "label": "排序",
+   "type": "action",
+   "n": 77,
+   "sleep": false
+  },
+  {
+   "name": "maximize",
+   "label": "全屏",
+   "type": "action",
+   "n": 78,
+   "sleep": false
+  },
+  {
+   "name": "minimize",
+   "label": "退出全屏",
+   "type": "action",
+   "n": 79,
+   "sleep": false
+  },
+  {
+   "name": "drag",
+   "label": "拖动",
+   "type": "action",
+   "n": 80,
+   "sleep": false
+  },
+  {
+   "name": "link",
+   "label": "链接",
+   "type": "action",
+   "n": 81,
+   "sleep": false
+  },
+  {
+   "name": "eye",
+   "label": "显示",
+   "type": "action",
+   "n": 82,
+   "sleep": false
+  },
+  {
+   "name": "eye-off",
+   "label": "隐藏",
+   "type": "action",
+   "n": 83,
+   "sleep": false
+  },
+  {
+   "name": "lock",
+   "label": "锁定",
+   "type": "action",
+   "n": 84,
+   "sleep": false
+  },
+  {
+   "name": "unlock",
+   "label": "解锁",
+   "type": "action",
+   "n": 85,
+   "sleep": false
+  },
+  {
+   "name": "login",
+   "label": "登录",
+   "type": "action",
+   "n": 86,
+   "sleep": false
+  },
+  {
+   "name": "logout",
+   "label": "退出",
+   "type": "action",
+   "n": 87,
+   "sleep": false
+  },
+  {
+   "name": "send",
+   "label": "发送",
+   "type": "action",
+   "n": 88,
+   "sleep": false
+  },
+  {
+   "name": "reply",
+   "label": "回复",
+   "type": "action",
+   "n": 89,
+   "sleep": false
+  },
+  {
+   "name": "pin",
+   "label": "置顶",
+   "type": "action",
+   "n": 90,
+   "sleep": false
+  },
+  {
+   "name": "attach",
+   "label": "附件",
+   "type": "action",
+   "n": 91,
+   "sleep": false
+  },
+  {
+   "name": "info",
+   "label": "提示",
+   "type": "action",
+   "n": 92,
+   "sleep": false
+  },
+  {
+   "name": "help",
+   "label": "帮助",
+   "type": "action",
+   "n": 93,
+   "sleep": false
+  },
+  {
+   "name": "warning",
+   "label": "警告",
+   "type": "action",
+   "n": 94,
+   "sleep": false
+  },
+  {
+   "name": "success",
+   "label": "成功",
+   "type": "action",
+   "n": 95,
+   "sleep": false
+  },
+  {
+   "name": "error",
+   "label": "失败",
+   "type": "action",
+   "n": 96,
+   "sleep": false
+  },
+  {
+   "name": "play",
+   "label": "播放",
+   "type": "action",
+   "n": 97,
+   "sleep": false
+  },
+  {
+   "name": "pause",
+   "label": "暂停",
+   "type": "action",
+   "n": 98,
+   "sleep": false
+  },
+  {
+   "name": "volume",
+   "label": "音量",
+   "type": "action",
+   "n": 99,
+   "sleep": false
+  },
+  {
+   "name": "mute",
+   "label": "静音",
+   "type": "action",
+   "n": 100,
+   "sleep": false
+  },
+  {
+   "name": "seal-tv",
+   "label": "电视",
+   "type": "seal",
+   "n": 101,
+   "sleep": true
+  },
+  {
+   "name": "seal-watch",
+   "label": "手表",
+   "type": "seal",
+   "n": 102,
+   "sleep": true
+  },
+  {
+   "name": "seal-mobile",
+   "label": "手机",
+   "type": "seal",
+   "n": 103,
+   "sleep": true
+  },
+  {
+   "name": "seal-alarm",
+   "label": "闹钟",
+   "type": "seal",
+   "n": 104,
+   "sleep": true
+  },
+  {
+   "name": "seal-puzzle",
+   "label": "插件",
+   "type": "seal",
+   "n": 105,
+   "sleep": true
+  },
+  {
+   "name": "seal-car",
+   "label": "出行",
+   "type": "seal",
+   "n": 106,
+   "sleep": true
+  },
+  {
+   "name": "seal-bus",
+   "label": "公交",
+   "type": "seal",
+   "n": 107,
+   "sleep": true
+  },
+  {
+   "name": "seal-store",
+   "label": "商店",
+   "type": "seal",
+   "n": 108,
+   "sleep": true
+  },
+  {
+   "name": "seal-live",
+   "label": "直播",
+   "type": "seal",
+   "n": 109,
+   "sleep": true
+  },
+  {
+   "name": "seal-sticker",
+   "label": "表情包",
+   "type": "seal",
+   "n": 110,
+   "sleep": true
+  },
+  {
+   "name": "seal-fish",
+   "label": "美食",
+   "type": "seal",
+   "n": 111,
+   "sleep": true
+  },
+  {
+   "name": "seal-bath",
+   "label": "洗澡",
+   "type": "seal",
+   "n": 112,
+   "sleep": true
+  },
+  {
+   "name": "seal-dumbbell",
+   "label": "健身",
+   "type": "seal",
+   "n": 113,
+   "sleep": true
+  },
+  {
+   "name": "seal-pencil",
+   "label": "写作",
+   "type": "seal",
+   "n": 114,
+   "sleep": true
+  },
+  {
+   "name": "seal-laptop",
+   "label": "电脑",
+   "type": "seal",
+   "n": 115,
+   "sleep": true
+  },
+  {
+   "name": "seal-card",
+   "label": "银行卡",
+   "type": "seal",
+   "n": 116,
+   "sleep": true
+  },
+  {
+   "name": "seal-inbox",
+   "label": "收件箱",
+   "type": "seal",
+   "n": 117,
+   "sleep": true
+  },
+  {
+   "name": "seal-qr",
+   "label": "二维码",
+   "type": "seal",
+   "n": 118,
+   "sleep": true
+  },
+  {
+   "name": "seal-checkin",
+   "label": "签到",
+   "type": "seal",
+   "n": 119,
+   "sleep": true
+  },
+  {
+   "name": "seal-news",
+   "label": "资讯",
+   "type": "seal",
+   "n": 120,
+   "sleep": true
+  },
+  {
+   "name": "seal-thermometer",
+   "label": "体温",
+   "type": "seal",
+   "n": 121,
+   "sleep": true
+  },
+  {
+   "name": "seal-briefcase",
+   "label": "工作",
+   "type": "seal",
+   "n": 122,
+   "sleep": true
+  },
+  {
+   "name": "seal-wand",
+   "label": "魔法",
+   "type": "seal",
+   "n": 123,
+   "sleep": true
+  },
+  {
+   "name": "seal-suitcase",
+   "label": "旅行",
+   "type": "seal",
+   "n": 124,
+   "sleep": true
+  },
+  {
+   "name": "seal-receipt",
+   "label": "账单",
+   "type": "seal",
+   "n": 125,
+   "sleep": true
+  },
+  {
+   "name": "seal-icecream",
+   "label": "甜品",
+   "type": "seal",
+   "n": 126,
+   "sleep": true
+  },
+  {
+   "name": "seal-icecream-top",
+   "label": "甜品 · 顶着",
+   "type": "seal",
+   "alternateOf": "seal-icecream",
+   "n": 126,
+   "sleep": true
+  },
+  {
+   "name": "seal-umbrella",
+   "label": "下雨",
+   "type": "seal",
+   "n": 127,
+   "sleep": true
+  },
+  {
+   "name": "seal-umbrella-top",
+   "label": "下雨 · 顶着",
+   "type": "seal",
+   "alternateOf": "seal-umbrella",
+   "n": 127,
+   "sleep": true
+  },
+  {
+   "name": "seal-ball",
+   "label": "运动",
+   "type": "seal",
+   "n": 128,
+   "sleep": true
+  },
+  {
+   "name": "seal-gem",
+   "label": "钻石",
+   "type": "seal",
+   "n": 129,
+   "sleep": true
+  },
+  {
+   "name": "seal-dice",
+   "label": "随机",
+   "type": "seal",
+   "n": 130,
+   "sleep": true
+  },
+  {
+   "name": "seal-coffee",
+   "label": "咖啡",
+   "type": "seal",
+   "n": 131,
+   "sleep": true
+  },
+  {
+   "name": "seal-bubbletea",
+   "label": "奶茶",
+   "type": "seal",
+   "n": 132,
+   "sleep": true
+  },
+  {
+   "name": "seal-medal",
+   "label": "勋章",
+   "type": "seal",
+   "n": 133,
+   "sleep": true
+  },
+  {
+   "name": "seal-pill",
+   "label": "吃药",
+   "type": "seal",
+   "n": 134,
+   "sleep": true
+  },
+  {
+   "name": "seal-notebook",
+   "label": "笔记",
+   "type": "seal",
+   "n": 135,
+   "sleep": true
+  },
+  {
+   "name": "seal-palette",
+   "label": "创作",
+   "type": "seal",
+   "n": 136,
+   "sleep": true
+  },
+  {
+   "name": "seal-popcorn",
+   "label": "电影",
+   "type": "seal",
+   "n": 137,
+   "sleep": true
+  },
+  {
+   "name": "seal-sleep",
+   "label": "睡眠",
+   "type": "seal",
+   "n": 138,
+   "sleep": true
+  },
+  {
+   "name": "seal-sprout",
+   "label": "成长",
+   "type": "seal",
+   "n": 139,
+   "sleep": true
+  },
+  {
+   "name": "seal-bandage",
+   "label": "修复",
+   "type": "seal",
+   "n": 140,
+   "sleep": true
+  },
+  {
+   "name": "seal-grad",
+   "label": "学习",
+   "type": "seal",
+   "n": 141,
+   "sleep": true
+  },
+  {
+   "name": "seal-robot",
+   "label": "助手",
+   "type": "seal",
+   "n": 142,
+   "sleep": true
+  },
+  {
+   "name": "seal-glasses",
+   "label": "护眼",
+   "type": "seal",
+   "n": 143,
+   "sleep": true
+  },
+  {
+   "name": "seal-sparkles",
+   "label": "新功能",
+   "type": "seal",
+   "n": 144,
+   "sleep": true
+  },
+  {
+   "name": "seal-flower",
+   "label": "小花",
+   "type": "seal",
+   "n": 145,
+   "sleep": true
+  },
+  {
+   "name": "seal-balloon",
+   "label": "庆祝",
+   "type": "seal",
+   "n": 146,
+   "sleep": true
+  },
+  {
+   "name": "seal-snow",
+   "label": "冬天",
+   "type": "seal",
+   "n": 147,
+   "sleep": true
+  },
+  {
+   "name": "seal-compass",
+   "label": "发现",
+   "type": "seal",
+   "n": 148,
+   "sleep": true
+  },
+  {
+   "name": "seal-rocket",
+   "label": "启动",
+   "type": "seal",
+   "n": 149,
+   "sleep": true
+  },
+  {
+   "name": "seal-piggy",
+   "label": "存钱",
+   "type": "seal",
+   "n": 150,
+   "sleep": true
+  },
+  {
+   "name": "zoom-in",
+   "label": "放大",
+   "type": "action",
+   "n": 151,
+   "sleep": false
+  },
+  {
+   "name": "zoom-out",
+   "label": "缩小",
+   "type": "action",
+   "n": 152,
+   "sleep": false
+  },
+  {
+   "name": "list",
+   "label": "列表",
+   "type": "action",
+   "n": 153,
+   "sleep": false
+  },
+  {
+   "name": "grid",
+   "label": "宫格",
+   "type": "action",
+   "n": 154,
+   "sleep": false
+  },
+  {
+   "name": "sidebar",
+   "label": "侧边栏",
+   "type": "action",
+   "n": 155,
+   "sleep": false
+  },
+  {
+   "name": "sliders",
+   "label": "调节",
+   "type": "action",
+   "n": 156,
+   "sleep": false
+  },
+  {
+   "name": "history",
+   "label": "历史",
+   "type": "action",
+   "n": 157,
+   "sleep": false
+  },
+  {
+   "name": "sync",
+   "label": "同步",
+   "type": "action",
+   "n": 158,
+   "sleep": false
+  },
+  {
+   "name": "loader",
+   "label": "加载",
+   "type": "action",
+   "n": 159,
+   "sleep": false
+  },
+  {
+   "name": "wifi",
+   "label": "无线网",
+   "type": "action",
+   "n": 160,
+   "sleep": false
+  },
+  {
+   "name": "wifi-off",
+   "label": "断网",
+   "type": "action",
+   "n": 161,
+   "sleep": false
+  },
+  {
+   "name": "bluetooth",
+   "label": "蓝牙",
+   "type": "action",
+   "n": 162,
+   "sleep": false
+  },
+  {
+   "name": "battery",
+   "label": "电量",
+   "type": "action",
+   "n": 163,
+   "sleep": false
+  },
+  {
+   "name": "signal",
+   "label": "信号",
+   "type": "action",
+   "n": 164,
+   "sleep": false
+  },
+  {
+   "name": "bell-off",
+   "label": "免打扰",
+   "type": "action",
+   "n": 165,
+   "sleep": false
+  },
+  {
+   "name": "thumbs-up",
+   "label": "点赞",
+   "type": "action",
+   "n": 166,
+   "sleep": false
+  },
+  {
+   "name": "thumbs-down",
+   "label": "点踩",
+   "type": "action",
+   "n": 167,
+   "sleep": false
+  },
+  {
+   "name": "at",
+   "label": "提及",
+   "type": "action",
+   "n": 168,
+   "sleep": false
+  },
+  {
+   "name": "hashtag",
+   "label": "话题",
+   "type": "action",
+   "n": 169,
+   "sleep": false
+  },
+  {
+   "name": "translate",
+   "label": "翻译",
+   "type": "action",
+   "n": 170,
+   "sleep": false
+  },
+  {
+   "name": "bold",
+   "label": "加粗",
+   "type": "action",
+   "n": 171,
+   "sleep": false
+  },
+  {
+   "name": "italic",
+   "label": "斜体",
+   "type": "action",
+   "n": 172,
+   "sleep": false
+  },
+  {
+   "name": "underline",
+   "label": "下划线",
+   "type": "action",
+   "n": 173,
+   "sleep": false
+  },
+  {
+   "name": "align-left",
+   "label": "左对齐",
+   "type": "action",
+   "n": 174,
+   "sleep": false
+  },
+  {
+   "name": "align-center",
+   "label": "居中",
+   "type": "action",
+   "n": 175,
+   "sleep": false
+  },
+  {
+   "name": "quote",
+   "label": "引用",
+   "type": "action",
+   "n": 176,
+   "sleep": false
+  },
+  {
+   "name": "code",
+   "label": "代码",
+   "type": "action",
+   "n": 177,
+   "sleep": false
+  },
+  {
+   "name": "terminal",
+   "label": "终端",
+   "type": "action",
+   "n": 178,
+   "sleep": false
+  },
+  {
+   "name": "crop",
+   "label": "裁剪",
+   "type": "action",
+   "n": 179,
+   "sleep": false
+  },
+  {
+   "name": "rotate",
+   "label": "旋转",
+   "type": "action",
+   "n": 180,
+   "sleep": false
+  },
+  {
+   "name": "scissors",
+   "label": "剪切",
+   "type": "action",
+   "n": 181,
+   "sleep": false
+  },
+  {
+   "name": "clipboard",
+   "label": "粘贴",
+   "type": "action",
+   "n": 182,
+   "sleep": false
+  },
+  {
+   "name": "save",
+   "label": "保存",
+   "type": "action",
+   "n": 183,
+   "sleep": false
+  },
+  {
+   "name": "print",
+   "label": "打印",
+   "type": "action",
+   "n": 184,
+   "sleep": false
+  },
+  {
+   "name": "cloud-up",
+   "label": "上传云端",
+   "type": "action",
+   "n": 185,
+   "sleep": false
+  },
+  {
+   "name": "cloud-down",
+   "label": "下载到本地",
+   "type": "action",
+   "n": 186,
+   "sleep": false
+  },
+  {
+   "name": "archive",
+   "label": "归档",
+   "type": "action",
+   "n": 187,
+   "sleep": false
+  },
+  {
+   "name": "flag",
+   "label": "举报",
+   "type": "action",
+   "n": 188,
+   "sleep": false
+  },
+  {
+   "name": "ban",
+   "label": "禁止",
+   "type": "action",
+   "n": 189,
+   "sleep": false
+  },
+  {
+   "name": "plus-circle",
+   "label": "添加",
+   "type": "action",
+   "n": 190,
+   "sleep": false
+  },
+  {
+   "name": "text-size",
+   "label": "字号",
+   "type": "action",
+   "n": 191,
+   "sleep": false
+  },
+  {
+   "name": "keyboard",
+   "label": "键盘",
+   "type": "action",
+   "n": 192,
+   "sleep": false
+  },
+  {
+   "name": "camera-flip",
+   "label": "翻转镜头",
+   "type": "action",
+   "n": 193,
+   "sleep": false
+  },
+  {
+   "name": "record",
+   "label": "录制",
+   "type": "action",
+   "n": 194,
+   "sleep": false
+  },
+  {
+   "name": "stop",
+   "label": "停止",
+   "type": "action",
+   "n": 195,
+   "sleep": false
+  },
+  {
+   "name": "next",
+   "label": "下一首",
+   "type": "action",
+   "n": 196,
+   "sleep": false
+  },
+  {
+   "name": "prev",
+   "label": "上一首",
+   "type": "action",
+   "n": 197,
+   "sleep": false
+  },
+  {
+   "name": "repeat",
+   "label": "循环",
+   "type": "action",
+   "n": 198,
+   "sleep": false
+  },
+  {
+   "name": "shuffle",
+   "label": "随机播放",
+   "type": "action",
+   "n": 199,
+   "sleep": false
+  },
+  {
+   "name": "contrast",
+   "label": "深浅色",
+   "type": "action",
+   "n": 200,
+   "sleep": false
+  }
+ ]
+}
