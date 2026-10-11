@@ -130,3 +130,5 @@ Android Studio：右键 `res` → New → Vector Asset → Local file，选择 S
 Baobao Icons is a set of 211 line icons on a 24px grid. Noun icons feature a small seal that holds, balances or wears the object; action icons stay plain. Two stroke weights (thin, thick), two eye styles (plain, highlight), and a sleeping variant for inactive tabs. All strokes use `currentColor`.
 
 Use the files in `svg/`, the sprites in `sprite/`, or the jsDelivr CDN. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free for personal and non-commercial use with attribution ("Baobao Icons by @唐幡"); contact the author for commercial use.
+
+小伙伴：[fanfan 图标](https://github.com/TangfanOVO/fanfan-icons)
