@@ -1,0 +1,686 @@
+{
+ "name": "豹宝图标 Baobao Icons · 动态版",
+ "version": "1.1.0",
+ "styles": [
+  "thin",
+  "thick",
+  "thin-highlight",
+  "thick-highlight"
+ ],
+ "motions": [
+  "wake",
+  "sleep",
+  "idle",
+  "bounce",
+  "blush",
+  "trick"
+ ],
+ "icons": [
+  {
+   "name": "seal-face",
+   "label": "本体",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-face-whole",
+   "label": "本体 · 整只",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-search",
+   "label": "搜索",
+   "trick": "找一找",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-search-tilt",
+   "label": "搜索 · 歪头",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-chat",
+   "label": "消息",
+   "trick": "冒泡",
+   "happyEyes": true
+  },
+  {
+   "name": "seal-chat-tilt",
+   "label": "消息 · 歪头",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-bell",
+   "label": "通知",
+   "trick": "叮铃",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-camera",
+   "label": "相机",
+   "trick": "咔嚓",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-location",
+   "label": "定位",
+   "trick": "落点",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-cloud",
+   "label": "云",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-sun",
+   "label": "浅色模式",
+   "trick": "光芒转",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-shield",
+   "label": "安全",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-scan",
+   "label": "扫一扫",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-mail",
+   "label": "信件",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-mail-hug",
+   "label": "信件 · 抱",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-calendar",
+   "label": "日历",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-bag",
+   "label": "购物",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-wallet",
+   "label": "钱包",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-ticket",
+   "label": "优惠券",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-image",
+   "label": "图片",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-video",
+   "label": "视频",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-folder",
+   "label": "文件夹",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-map",
+   "label": "地图",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-key",
+   "label": "钥匙",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-redpacket",
+   "label": "红包",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-bookmark",
+   "label": "收藏",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-file",
+   "label": "文件",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-tag",
+   "label": "标签",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-heart",
+   "label": "喜欢",
+   "trick": "怦怦",
+   "happyEyes": true
+  },
+  {
+   "name": "seal-heart-chin",
+   "label": "喜欢 · 托",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-heart-side",
+   "label": "喜欢 · 斜着咬",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-star",
+   "label": "星标",
+   "trick": "星星翻",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-bulb",
+   "label": "灵感",
+   "trick": "灵光一闪",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-trophy",
+   "label": "奖杯",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-fire",
+   "label": "热门",
+   "trick": "火苗跳",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-gift",
+   "label": "礼物",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-book",
+   "label": "书",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-coin",
+   "label": "积分",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-game",
+   "label": "游戏",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-home",
+   "label": "主页",
+   "trick": "帽子跳",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-crown",
+   "label": "会员",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-music",
+   "label": "音乐",
+   "trick": "摇头晃脑",
+   "happyEyes": true
+  },
+  {
+   "name": "seal-cake",
+   "label": "生日",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-headset",
+   "label": "客服",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-settings",
+   "label": "设置",
+   "trick": "齿轮转",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-clock",
+   "label": "时间",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-globe",
+   "label": "语言",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-moon",
+   "label": "深色模式",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-package",
+   "label": "快递",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-me",
+   "label": "我的",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-me-whole",
+   "label": "我的 · 整只",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-users",
+   "label": "好友",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-users-small",
+   "label": "好友 · 小身体",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-users-whole",
+   "label": "好友 · 两只整只",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-user-add",
+   "label": "加好友",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-chart",
+   "label": "数据",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-cart",
+   "label": "购物车",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-phone",
+   "label": "电话",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-mic",
+   "label": "语音",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-coffee",
+   "label": "咖啡",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-bubbletea",
+   "label": "奶茶",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-icecream",
+   "label": "甜品",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-icecream-top",
+   "label": "甜品 · 顶着",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-fish",
+   "label": "美食",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-bath",
+   "label": "洗澡",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-sleep",
+   "label": "睡眠",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-umbrella",
+   "label": "下雨",
+   "trick": "下雨啦",
+   "happyEyes": true
+  },
+  {
+   "name": "seal-umbrella-top",
+   "label": "下雨 · 顶着",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-sprout",
+   "label": "成长",
+   "trick": "发芽",
+   "happyEyes": true
+  },
+  {
+   "name": "seal-thermometer",
+   "label": "体温",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-bandage",
+   "label": "修复",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-ball",
+   "label": "运动",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-dumbbell",
+   "label": "健身",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-medal",
+   "label": "勋章",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-pill",
+   "label": "吃药",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-grad",
+   "label": "学习",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-pencil",
+   "label": "写作",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-notebook",
+   "label": "笔记",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-laptop",
+   "label": "电脑",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-briefcase",
+   "label": "工作",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-palette",
+   "label": "创作",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-wand",
+   "label": "魔法",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-robot",
+   "label": "助手",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-tv",
+   "label": "电视",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-watch",
+   "label": "手表",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-mobile",
+   "label": "手机",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-glasses",
+   "label": "护眼",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-popcorn",
+   "label": "电影",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-alarm",
+   "label": "闹钟",
+   "trick": "闹铃响",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-puzzle",
+   "label": "插件",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-car",
+   "label": "出行",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-bus",
+   "label": "公交",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-rocket",
+   "label": "启动",
+   "trick": "起飞",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-suitcase",
+   "label": "旅行",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-store",
+   "label": "商店",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-compass",
+   "label": "发现",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-piggy",
+   "label": "存钱",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-card",
+   "label": "银行卡",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-receipt",
+   "label": "账单",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-gem",
+   "label": "钻石",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-sparkles",
+   "label": "新功能",
+   "trick": "闪闪",
+   "happyEyes": false
+  },
+  {
+   "name": "seal-inbox",
+   "label": "收件箱",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-qr",
+   "label": "二维码",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-flower",
+   "label": "小花",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-balloon",
+   "label": "庆祝",
+   "trick": "飘飘",
+   "happyEyes": true
+  },
+  {
+   "name": "seal-snow",
+   "label": "冬天",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-checkin",
+   "label": "签到",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-live",
+   "label": "直播",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-sticker",
+   "label": "表情包",
+   "trick": null,
+   "happyEyes": true
+  },
+  {
+   "name": "seal-dice",
+   "label": "随机",
+   "trick": null,
+   "happyEyes": false
+  },
+  {
+   "name": "seal-news",
+   "label": "资讯",
+   "trick": null,
+   "happyEyes": false
+  }
+ ]
+}

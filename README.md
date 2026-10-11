@@ -9,6 +9,7 @@
 - 颜色全部跟着文字颜色走（`currentColor`），深色模式不用另画一套
 
 在线预览：`https://TangfanOVO.github.io/baobao-icons/`
+动态版：`https://TangfanOVO.github.io/baobao-icons/motion/`（用法见 motion/README.md）
 
 ## 文件在哪
 
