@@ -11,6 +11,12 @@
 在线预览：`https://TangfanOVO.github.io/baobao-icons/`
 动态版：`https://TangfanOVO.github.io/baobao-icons/motion/`（用法见 motion/README.md）
 
+## 动态预览
+
+![111 个海豹图标的动态预览](assets/previews/motion-overview.gif)
+
+![海豹图标的专属小动作预览](assets/previews/motion-tricks.gif)
+
 ## 文件在哪
 
 ```
