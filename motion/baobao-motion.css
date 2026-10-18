@@ -2,6 +2,8 @@
 /* 豹宝 motion — every motion either moves a whole group (its gaps travel with it) or touches only eyes / cheeks / z */
 .bb { overflow: visible; --k: var(--bb-slow, 1); }
 .bb * { transform-box: fill-box; transform-origin: 50% 50%; }
+/* Mask fills define a cutout; inheriting the icon stroke leaves a tinted edge. */
+.bb mask { stroke: none; }
 .bb .bb-body, .bb .bb-roof { transform-origin: 50% 100%; }
 .bb .bb-swing, .bb .bb-clap { transform-box: view-box; transform-origin: 12px 3px; }
 .bb .bb-love { transform-box: view-box; transform-origin: 12px 9px; }

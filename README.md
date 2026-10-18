@@ -11,6 +11,8 @@
 在线预览：`https://TangfanOVO.github.io/baobao-icons/`
 动态版：`https://TangfanOVO.github.io/baobao-icons/motion/`（用法见 motion/README.md）
 
+动态页支持单个下载：自带动画的 SVG，以及循环播放的 GIF；可选图标、动作、粗细、眼睛、颜色与尺寸。
+
 ## 动态预览
 
 ![111 个海豹图标的动态预览](assets/previews/motion-overview.gif)

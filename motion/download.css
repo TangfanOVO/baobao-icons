@@ -1,0 +1,30 @@
+.download-panel { border-block: 1px solid var(--line); padding-block: 24px; scroll-margin-top: 20px; }
+.download-layout { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 24px; margin-top: 20px; }
+.download-preview { display: grid; place-items: center; align-self: start; aspect-ratio: 1; border: 1px solid var(--line); border-radius: 12px; background: var(--raised); }
+.download-fields { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.download-fields label { display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+.download-fields select, .download-fields input { font: inherit; font-size: 16px; color: var(--ink); background: var(--raised); border: 1px solid var(--line); border-radius: 8px; min-height: 44px; padding: 6px 10px; max-width: 100%; }
+.download-fields input[type="color"] { width: 64px; padding: 4px; }
+.download-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; align-items: center; }
+.download-actions .btn { min-height: 44px; }
+.download-actions .primary { background: var(--seal); border-color: var(--seal); color: var(--paper); }
+.download-actions button:disabled { opacity: .55; cursor: wait; }
+.download-status { min-height: 1.6em; margin: 8px 0 0; font-size: 14px; color: var(--muted); }
+.download-result { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 12px; }
+.download-result img { width: 96px; height: 96px; object-fit: contain; border: 1px solid var(--line); border-radius: 8px; }
+.download-result a { display: inline-block; padding-block: 10px; overflow-wrap: anywhere; }
+.motion-cell, .tile-item { min-width: 0; display: grid; grid-template-rows: 1fr auto; }
+.tile-download, .cell-download { font: inherit; font-size: 13px; color: var(--seal); background: none; border: 0; cursor: pointer; min-height: 44px; padding: 8px 4px; text-decoration: underline; text-underline-offset: 3px; }
+.tile-download:hover, .cell-download:hover { color: var(--ink); }
+select:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
+.export-stage { position: fixed; left: -10000px; top: 0; width: 24px; height: 24px; pointer-events: none; }
+/* Explicit export requests keep the selected motion even if idle preview is reduced. */
+.export-stage .bb.idle .bb-body { animation: bb-breathe 3.2s ease-in-out infinite; }
+.export-stage .bb.idle .bb-eye-a { animation: bb-blink 4.8s infinite; }
+.export-stage .bb.idle.happy-eyes .bb-eye-a { animation-name: bb-squeeze; }
+@media (max-width: 540px) {
+  .download-layout { grid-template-columns: 1fr; gap: 16px; }
+  .download-preview { width: 112px; }
+  .download-fields { gap: 12px; }
+  .download-fields label:first-child { width: 100%; }
+}

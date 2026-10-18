@@ -5,6 +5,17 @@
 
 在线预览：`https://TangfanOVO.github.io/baobao-icons/motion/`
 
+## 单个下载
+
+在动态预览页的“单个下载”区域选择图标和动作，或点每个图标旁的“下载”。粗细、眼睛和速度跟随页面上方的选择；可以另选颜色、背景和 128 / 256 / 512 px 尺寸。
+
+- **动态 SVG**：内嵌所需样式，无脚本、无外部依赖。打开即播放所选动作一次，待机动作循环；可作为图片使用。四周留有动作空间，半透明嘴筒和腮红原样保留。
+- **GIF**：循环播放所选动作，在浏览器本地生成，有进度与取消按钮。生成后可再次点击保存链接；不需要上传图标。
+- GIF 只支持完全透明或不透明，透明 GIF 的半透明边缘按白底处理；深色主题建议选深色背景或动态 SVG。
+- 文件名包含图标、粗细、眼睛、动作、尺寸和速度。文件生成不等于已保存，手机端请确认浏览器的保存结果。
+
+以下用法面向需要通过代码切换状态的开发者，使用的是 `motion/svg/` 里的源文件，与网页导出的独立动态 SVG 不同。
+
 ## 文件在哪
 
 ```
@@ -24,7 +35,7 @@ motion/
 
 ## 怎么用
 
-动态版只能**直接贴进网页**用。放进 `<img>` 里的 SVG 收不到点击，也没法切换状态。
+`motion/svg/` 中的源 SVG 需要**直接贴进网页**，配合样式与助手切换状态；放进 `<img>` 不能由外面的代码控制。预览页导出的动态 SVG 已经自带样式，可以放进 `<img>` 自动播放。
 
 ### 1. 引入样式和助手
 
@@ -121,4 +132,4 @@ document.querySelectorAll(".tab").forEach(tab => {
 
 ## English
 
-The motion edition: all 111 seal icons can wake up, fall asleep, idle (breathing and blinking), bounce and blush, and 19 of them have a trick of their own. Paste the SVG inline (it won't animate inside `<img>`), include `baobao-motion.css`, then call `BaobaoMotion.play(svg, "wake" | "sleep" | "bounce" | "blush" | "trick")` from `baobao-motion.js`, or toggle the `is-asleep`, `idle` and `do-*` classes on the `<svg>` yourself. Same license as the static set: CC BY-NC 4.0.
+The motion edition: all 111 seal icons can wake up, fall asleep, idle (breathing and blinking), bounce and blush, and 19 of them have a trick of their own. Download a self-contained animated SVG or a looping GIF from the preview page. For interactive state changes, paste a source SVG from `motion/svg/` inline, include `baobao-motion.css`, then call `BaobaoMotion.play(svg, "wake" | "sleep" | "bounce" | "blush" | "trick")` from `baobao-motion.js`, or toggle the `is-asleep`, `idle` and `do-*` classes on the `<svg>` yourself. Same license as the static set: CC BY-NC 4.0. The GIF encoder is gifenc 1.0.3 (MIT), vendored with its license in `vendor/`.

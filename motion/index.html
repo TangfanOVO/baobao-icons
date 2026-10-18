@@ -92,6 +92,8 @@ button:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
 /* 豹宝 motion — every motion either moves a whole group (its gaps travel with it) or touches only eyes / cheeks / z */
 .bb { overflow: visible; --k: var(--bb-slow, 1); }
 .bb * { transform-box: fill-box; transform-origin: 50% 50%; }
+/* Mask fills define a cutout; inheriting the icon stroke leaves a tinted edge. */
+.bb mask { stroke: none; }
 .bb .bb-body, .bb .bb-roof { transform-origin: 50% 100%; }
 .bb .bb-swing, .bb .bb-clap { transform-box: view-box; transform-origin: 12px 3px; }
 .bb .bb-love { transform-box: view-box; transform-origin: 12px 9px; }
@@ -358,6 +360,7 @@ button:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
 }
 
 </style>
+<link rel="stylesheet" href="download.css">
 </head>
 <body>
 
@@ -365,7 +368,7 @@ button:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
   <header>
     <h1>豹宝动起来<small>Baobao Icons · 动态版</small></h1>
     <p class="lede">111 个带海豹的图标都会醒来、睡着、眨眼、弹一下、脸红，其中 19 个还有自己的小动作。点任意图标就能重播，慢放可以看清每一帧。</p>
-    <div class="links"><a href="../">静态图标</a><a href="https://github.com/TangfanOVO/baobao-icons/tree/main/motion#readme">使用说明</a><a href="motion.json">motion.json</a><a href="https://github.com/TangfanOVO/baobao-icons/blob/main/LICENSE">授权：CC BY-NC 4.0</a></div>
+    <div class="links"><a href="../">静态图标</a><a href="https://github.com/TangfanOVO/baobao-icons/tree/main/motion#readme">使用说明</a><a href="#download">单个下载</a><a href="motion.json">motion.json</a><a href="https://github.com/TangfanOVO/baobao-icons/blob/main/LICENSE">授权：CC BY-NC 4.0</a></div>
     <div class="bar" role="toolbar" aria-label="预览设置">
       <div class="ctl"><span>线条</span><div class="seg" data-opt="weight"><button id="w-thin" data-v="thin">细</button><button id="w-thick" data-v="thick">粗</button></div></div>
       <div class="ctl"><span>眼睛</span><div class="seg" data-opt="eyes"><button id="e-plain" data-v="plain">豆豆眼</button><button id="e-hl" data-v="highlight">高光</button></div></div>
@@ -386,6 +389,35 @@ button:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
         <li>再点一下已经选中的 tab，它会弹一下。</li>
         <li>主页睡着的时候头顶会冒出小 z，醒来时 z 飘走，屋顶帽子也跟着跳。</li>
       </ol>
+    </div>
+  </section>
+
+  <section class="download-panel" id="download" aria-labelledby="download-h">
+    <h2 id="download-h">单个下载</h2>
+    <p class="sub">选一个豹宝和动作，下载后就能使用。也可以点下方每个图标旁的“下载”。</p>
+    <div class="download-layout">
+      <div class="download-preview" id="download-preview"></div>
+      <div>
+        <div class="download-fields">
+          <label>图标<select id="download-icon"></select></label>
+          <label>动作<select id="download-motion"></select></label>
+          <label>尺寸<select id="download-size"><option value="128">128 px</option><option value="256" selected>256 px</option><option value="512">512 px</option></select></label>
+          <label>线条颜色<input type="color" id="download-color" value="#41678a"></label>
+          <label>背景<select id="download-background"><option value="transparent">透明</option><option value="#ffffff">白色</option><option value="#fbf8f4">暖白</option><option value="#23262d">深色</option></select></label>
+        </div>
+        <p class="sub" id="download-style"></p>
+        <div class="download-actions">
+          <button type="button" class="btn primary" data-format="svg">下载动态 SVG</button>
+          <button type="button" class="btn" data-format="gif">下载 GIF</button>
+          <button type="button" class="btn" id="download-cancel" hidden>取消生成</button>
+        </div>
+        <p class="sub">SVG 自带动画，打开播放一次，待机会循环；GIF 循环播放。透明 GIF 的半透明边缘按白底处理，用于深色主题时建议选择深色背景或使用 SVG。</p>
+        <p class="download-status" id="download-status" role="status" aria-live="polite"></p>
+        <div class="download-result" id="download-result" hidden>
+          <img id="download-image" alt="导出的豹宝动态预览">
+          <a id="download-save">保存文件</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -413,7 +445,8 @@ button:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
     <div>
       <h2>怎么用</h2>
       <ul>
-        <li>把 <code>motion/svg/</code> 里的 SVG 直接贴进网页，再引入 <code>baobao-motion.css</code>。放在 <code>&lt;img&gt;</code> 里不会动。</li>
+        <li>直接使用：在“单个下载”里导出自带动画的 SVG 或 GIF，不需要另外引入文件。</li>
+        <li>需要跟随点击切换状态：把 <code>motion/svg/</code> 里的源 SVG 贴进网页，再引入 <code>baobao-motion.css</code> 和播放助手。</li>
         <li>用 <code>BaobaoMotion.play(svg, "wake")</code> 播放，或者直接切换 svg 上的 class。</li>
         <li>完整写法和 tab 栏的例子在<a href="https://github.com/TangfanOVO/baobao-icons/tree/main/motion#readme">使用说明</a>里。</li>
       </ul>
@@ -464,10 +497,10 @@ function matrix() {
     <div class="icon-row">
       <div class="who"><b>${ic.label}</b><code>seal-${ic.key}</code></div>
       <div class="cells">${MOTIONS.map(m => `
-        <button class="cell" type="button" data-key="${ic.key}" data-m="${m.id}" aria-label="${ic.label}：${m.id === "trick" ? ic.trick : m.name}，点一下重播">
+        <div class="motion-cell"><button class="cell" type="button" data-key="${ic.key}" data-m="${m.id}" aria-label="${ic.label}：${m.id === "trick" ? ic.trick : m.name}，点一下重播">
           <span class="pair">${svg(ic, 56, rest[m.id] || "")}${svg(ic, 24, rest[m.id] || "")}</span>
           <span class="name">${m.id === "trick" ? ic.trick : m.name}</span>
-        </button>`).join("")}
+        </button><button class="cell-download" type="button" data-download-key="${ic.key}" data-download-motion="${m.id}" aria-label="下载${ic.label} · ${m.id === 'trick' ? ic.trick : m.name}">下载</button></div>`).join("")}
       </div>
     </div>`).join("");
 }
@@ -502,7 +535,7 @@ function all() {
   const restCls = rest[state.allm] || "";
   const trick = state.allm === "trick";
   $("#all").innerHTML = DATA.icons.filter(ic => !trick || ic.trick).map(ic =>
-    `<button class="tile" type="button" data-key="${ic.key}" aria-label="${ic.label}，点一下播放">${svg(ic, 40, restCls)}<span>${ic.label}</span>${trick ? `<span class="t">${ic.trick}</span>` : ""}</button>`).join("");
+    `<div class="tile-item"><button class="tile" type="button" data-key="${ic.key}" aria-label="${ic.label}，点一下播放">${svg(ic, 40, restCls)}<span>${ic.label}</span>${trick ? `<span class="t">${ic.trick}</span>` : ""}</button><button class="tile-download" type="button" data-download-key="${ic.key}" aria-label="下载${ic.label}">下载</button></div>`).join("");
 }
 function playAllGrid() {
   if (state.allm === "idle") return;
@@ -519,6 +552,7 @@ function renderAll() {
     b.setAttribute("aria-pressed", String(state[seg.dataset.opt] === b.dataset.v))));
   document.documentElement.style.setProperty("--bb-slow", state.speed);
   tabs(); matrix(); all();
+  document.dispatchEvent(new Event("baobao:settings"));
 }
 document.querySelectorAll(".seg").forEach(seg => seg.addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
@@ -526,6 +560,7 @@ document.querySelectorAll(".seg").forEach(seg => seg.addEventListener("click", e
   if (opt === "speed") {
     document.documentElement.style.setProperty("--bb-slow", state.speed);
     document.querySelectorAll(".seg[data-opt=speed] button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    document.dispatchEvent(new Event("baobao:settings"));
     return;
   }
   renderAll();
@@ -536,5 +571,6 @@ $("#replay").addEventListener("click", playAll);
 renderAll();
 playAll();
 </script>
+<script src="download.js"></script>
 </body>
 </html>
